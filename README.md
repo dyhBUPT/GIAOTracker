@@ -11,6 +11,16 @@ Best wishes.
 
 In recent years, algorithms for multiple object tracking tasks have benefited from great progresses in deep models and video quality. However, in challenging scenarios like drone videos, they still suffer from problems, such as small objects, camera movements and view changes. In this paper, we propose a new multiple object tracker, which employs Global Information And some Optimizing strategies, named GIAOTracker. It consists of three stages, i.e., online tracking, global link and post-processing. Given detections in every frame, the first stage generates reliable tracklets using information of camera motion, object motion and object appearance. Then they are associated into trajectories by exploiting global clues and refined through four post-processing methods. With the effectiveness of the three stages, GIAOTracker achieves state-of-the-art performance on the VisDrone MOT dataset and wins the 3rd place in the VisDrone2021 MOT Challenge.
 
+## Methods
+
+![GIAOTracker_Framework](https://user-images.githubusercontent.com/99722489/182517178-7207278e-51ce-4ed5-8480-7fea0debbf8d.jpg)
+
+![online](https://user-images.githubusercontent.com/99722489/182517321-71f04435-3a95-40d5-a69e-aaf7d9710b91.jpg)
+
+![GIModel](https://user-images.githubusercontent.com/99722489/182517458-ef8d6534-9431-4605-82c6-cecc84d4d2b9.png)
+
+![NSAKalman](https://user-images.githubusercontent.com/99722489/182517555-c3451965-59df-449e-b149-63a8671098e9.jpg)
+
 
 ## Citation
 
